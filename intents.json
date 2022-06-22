@@ -1,0 +1,306 @@
+{
+ "intents": [
+  {
+   "tag": "DNSXH",
+   "patterns": [
+    "hi",
+    "SXH l\u00e0 g\u00ec",
+    "D\u1ecbch s\u1ed1t xu\u1ea5t huy\u1ebft",
+    "Th\u1ebf n\u00e0o l\u00e0 s\u1ed1t xu\u1ea5t huy\u1ebft"
+   ],
+   "responses": [
+    "s\u1ed1t xu\u1ea5t huy\u1ebft l\u00e0 b\u1ec7nh truy\u1ec1n nhi\u1ec3m do virus dengue g\u00e2y ra \n Nguy\u00ean nh\u00e2n l\u00e2y lan b\u1ec7nh l\u00e0 do mu\u1ed7i v\u1eb1n truy\u1ec1n virus Dengue t\u1eeb ng\u01b0\u1eddi b\u1ec7nh sang ng\u01b0\u1eddi kh\u1ecfe m\u1ea1nh.\n \u0111\u00f4i khi c\u00f3 th\u1ec3 g\u00e2y \u0111au nh\u1ee9c r\u1ea5t tr\u1ea7m tr\u1ecdng \u1edf c\u01a1 v\u00e0 kh\u1edbp\nVirus Dengue c\u00f3 4 type huy\u1ebft thanh l\u00e0 DEN-1, DEN-2, DEN-3 v\u00e0 DEN-4."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "covdengue",
+   "patterns": [
+    "covid-19 v\u00e0 s\u1ed1t xu\u1ea5t huy\u1ebft gi\u1ed1ng nhau nh\u01b0 th\u1ebf n\u00e0o",
+    "covid-19 v\u00e0 s\u1ed1t xu\u1ea5t huy\u1ebft c\u00f3 gi\u1ed1ng nhau kh\u00f4ng",
+    "c\u00f3 gi\u1ed1ng nhau gi\u1eefa covid-19 v\u00e0 s\u1ed1t xu\u1ea5t huy\u1ebft kh\u00f4ng"
+   ],
+   "responses": [
+    "\u2013 \u0110\u1ec1u l\u00e0 b\u1ec7nh truy\u1ec1n nhi\u1ec5m do virus g\u00e2y ra.\n\u2013 D\u1ea5u hi\u1ec7u ph\u1ed5 bi\u1ebfn l\u00e0 s\u1ed1t, \u0111au \u0111\u1ea7u, m\u1ecfi ng\u01b0\u1eddi, \u1edbn l\u1ea1nh.\n\u2013 C\u00e1c tri\u1ec7u ch\u1ee9ng di\u1ec5n bi\u1ebfn t\u1eeb nh\u1eb9 \u0111\u1ebfn n\u1eb7ng.\n\u2013 V\u1edbi tri\u1ec7u ch\u1ee9ng nh\u1eb9, ng\u01b0\u1eddi b\u1ec7nh c\u00f3 th\u1ec3 t\u1ef1 kh\u1ecfi v\u00e0 c\u00f3 th\u1ec3 t\u1ef1 h\u1ed3i ph\u1ee5c t\u1ea1i nh\u00e0.\n\u2013 C\u00f3 nguy c\u01a1 di\u1ec5n bi\u1ebfn n\u1eb7ng, c\u00f3 th\u1ec3 g\u00e2y t\u1eed vong, \u0111\u1eb7c bi\u1ec7t v\u1edbi nh\u1eefng ng\u01b0\u1eddi m\u1eafc b\u1ec7nh n\u1ec1n.\n\u2013 B\u1ec7nh g\u1eb7p \u1edf m\u1ecdi l\u1ee9a tu\u1ed5i."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "nhikhoa",
+   "patterns": [
+    "c\u00e1c b\u1ec7nh hay g\u1eb7p tr\u1ebb em",
+    "b\u1ec7nh tr\u1ebb em",
+    "b\u1ec7nh n\u00e0o hay c\u00f3 \u1edf tr\u1ebb em",
+    "b\u1ec7nh l\u00fd th\u01b0\u1eddng g\u1eb7p tr\u1ebb em",
+    "tr\u1ebb em hay m\u1eafc b\u1ec7nh g\u00ec"
+   ],
+   "responses": [
+    "Vi\u00eam tai;\nVi\u00eam thanh qu\u1ea3n \nTay ch\u00e2n mi\u1ec7ng\n\u0110au m\u1eb7t \u0111\u1ecf\nS\u1edfi\nTh\u1ee7y \u0111\u1eadu"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "sad",
+   "patterns": [
+    "i am sad ",
+    "i am upset",
+    "i have a problem",
+    "i am not okay"
+   ],
+   "responses": [
+    "No problem. Everything will be okay",
+    "'There is only one happiness in life, to love and be loved' \n- George Sand.",
+    "'Cry. Forgive. Learn. Move on. \nLet your tears water the seeds of your future happiness' \n- Steve Maraboli",
+    "I am here for you, how can I help?"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "funny",
+   "patterns": [
+    "you have good sense of humour",
+    "you are funny bot"
+   ],
+   "responses": [
+    "Yes i have good sense of humour.",
+    "Thanks for your compliment"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "positive",
+   "patterns": [
+    "ok",
+    "good cool",
+    "yes wow you are so intelligent ",
+    "hurray i am happy",
+    "i am doing good"
+   ],
+   "responses": [
+    "I Hope you are getting your answers cleared."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "goodbye",
+   "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye"
+   ],
+   "responses": [
+    "See you later, thanks for visiting TechVidvan",
+    "Have a nice day",
+    "Bye! Come back again soon."
+   ]
+  },
+  {
+   "tag": "thanks",
+   "patterns": [
+    "Thank you",
+    "That's helpful"
+   ],
+   "responses": [
+    "Happy to help!",
+    "Any time!",
+    "My pleasure"
+   ]
+  },
+  {
+   "tag": "order",
+   "patterns": [
+    "show my order details?",
+    "Provide my order details",
+    "orders"
+   ],
+   "responses": [
+    "Do you want Purchased Order or Cart order details?"
+   ],
+   "set": "orderid"
+  },
+  {
+   "tag": "Purchased",
+   "patterns": [
+    "Purchased order",
+    "Purchased"
+   ],
+   "responses": [
+    "Please provide your order id",
+    "Please say your order id"
+   ],
+   "filter": "orderid",
+   "set": "historydetails"
+  },
+  {
+   "tag": "ordernumber",
+   "patterns": [
+    "ordernumber"
+   ],
+   "responses": [
+    "You ordered Smartwatch"
+   ],
+   "filter": "historydetails"
+  },
+  {
+   "tag": "Cart",
+   "patterns": [
+    "Cart",
+    "Cart details"
+   ],
+   "responses": [
+    "Your cart contains: \n1)Watch.\n2)Clock"
+   ],
+   "filter": "orderid"
+  },
+  {
+   "tag": "offers",
+   "patterns": [
+    "show me the offers",
+    "What kinds of deals do you have?"
+   ],
+   "responses": [
+    "Are you looking for deals on watches or smartphones?"
+   ],
+   "set": "productoffers"
+  },
+  {
+   "tag": "watches",
+   "patterns": [
+    "watches"
+   ],
+   "responses": [
+    "For about $100, you can get a 10X gold watch."
+   ],
+   "filter": "productoffers"
+  },
+  {
+   "tag": "smartphones",
+   "patterns": [
+    "smartphones"
+   ],
+   "responses": [
+    "XYZ Phone is available at $75 only."
+   ],
+   "filter": "productoffers"
+  },
+  {
+   "tag": "Products",
+   "patterns": [
+    "products available",
+    "show me available items"
+   ],
+   "responses": [
+    "Products available:\n1) Watch \n2) Smartphone \n3) Clock"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "dif",
+   "patterns": [
+    "sxh va cov khac nhau khong",
+    "cov va sxh co khac nhau"
+   ],
+   "responses": [
+    "qua trinh lay nhiem",
+    "thoi gian u benh"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "phanbiet",
+   "patterns": [
+    "phan biet khac nhau covid-19 v\u00e0 sxh",
+    "cach phan biet sxh va covid-19"
+   ],
+   "responses": [
+    "trieu chung thong thuong: sxh--> sot cao dot ngot 39-41o",
+    "trieu chung thong thuong: covid-->ho, hat hoi, rat hong, mat vi giac"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "nhikho",
+   "patterns": [
+    "tre em hay benh gi",
+    "em be thuong bi benh gi"
+   ],
+   "responses": [
+    "quai bi",
+    "tieu chay"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "nhikho",
+   "patterns": [
+    "tre em hay benh gi",
+    "em be thuong bi benh gi"
+   ],
+   "responses": [
+    "quai bi",
+    "tieu chay"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "nhikho",
+   "patterns": [
+    "tre em hay benh gi",
+    "em be thuong bi benh gi"
+   ],
+   "responses": [
+    "quai bi",
+    "tieu chay"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "nhikho",
+   "patterns": [
+    "b\u1ec7nh th\u01b0\u1eddng c\u00f3 tr\u1ebb em",
+    "b\u1ec7nh l\u00fd n\u00e0o hay g\u1eb7p tr\u1ebb em"
+   ],
+   "responses": [
+    "quai b\u1ecb",
+    "tay ch\u00e2n mi\u1ec7ng"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "nhikho",
+   "patterns": [
+    "b\u1ec7nh th\u01b0\u1eddng c\u00f3 tr\u1ebb em",
+    "b\u1ec7nh l\u00fd n\u00e0o hay g\u1eb7p tr\u1ebb em"
+   ],
+   "responses": [
+    "quai b\u1ecb",
+    "tay ch\u00e2n mi\u1ec7ng"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "dengue",
+   "patterns": [
+    "gi\u1ed1ng nhau covid-19, dengue",
+    "covid-10,dengue gi\u1ed1ng nhau ntn"
+   ],
+   "responses": [
+    "\u2013 \u0110\u1ec1u l\u00e0 b\u1ec7nh truy\u1ec1n nhi\u1ec5m do virus g\u00e2y ra.",
+    "\u2013 D\u1ea5u hi\u1ec7u ph\u1ed5 bi\u1ebfn l\u00e0 s\u1ed1t, \u0111au \u0111\u1ea7u, m\u1ecfi ng\u01b0\u1eddi, \u1edbn l\u1ea1nh."
+   ],
+   "context": ""
+  },
+  {
+   "tag": "dengue",
+   "patterns": [
+    "gi\u1ed1ng nhau covid-19, dengue",
+    "covid-10,dengue gi\u1ed1ng nhau ntn"
+   ],
+   "responses": [
+    "\u2013 \u0110\u1ec1u l\u00e0 b\u1ec7nh truy\u1ec1n nhi\u1ec5m do virus g\u00e2y ra.",
+    "\u2013 D\u1ea5u hi\u1ec7u ph\u1ed5 bi\u1ebfn l\u00e0 s\u1ed1t, \u0111au \u0111\u1ea7u, m\u1ecfi ng\u01b0\u1eddi, \u1edbn l\u1ea1nh."
+   ],
+   "context": ""
+  }
+ ]
+}
